@@ -1,0 +1,115 @@
+/* CSS RESET */
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/workout.jpg');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.left img {
+    width: 120px;
+    /* filter: invert(100%);
+    By this filter property we can invvert the colors moreover as a filter in an image - Here, black image is availabe and I can conver it in white as "filter: invert(100%)" and more with this property.*/
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    /*there are three conditions if we have to centre the elemnt with the help of "margin: auto;" is display should be block, width must be there and margin auto itself.*/
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 21px;
+}
+
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 24px 8px;
+    background-color: black;
+    color: white;
+    padding: 5px 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid grey;
+    margin: 121px 52px;
+    padding: 32px 63px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    width: 366px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 24px auto;
+}
+
+.container button {
+    display: block;
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+}
