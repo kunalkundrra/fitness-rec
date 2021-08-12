@@ -1,4 +1,3 @@
-/* CSS RESET */
 
 body {
     color: white;
@@ -10,7 +9,6 @@ body {
 
 .left {
     display: inline-block;
-    /* border: 2px solid red; */
     position: absolute;
     left: 50px;
     top: 0px;
@@ -18,8 +16,6 @@ body {
 
 .left img {
     width: 120px;
-    /* filter: invert(100%);
-    By this filter property we can invvert the colors moreover as a filter in an image - Here, black image is availabe and I can conver it in white as "filter: invert(100%)" and more with this property.*/
 }
 
 .left div {
@@ -32,8 +28,6 @@ body {
     display: block;
     width: 50%;
     margin: 30px auto;
-    /*there are three conditions if we have to centre the elemnt with the help of "margin: auto;" is display should be block, width must be there and margin auto itself.*/
-    /* border: 2px solid green; */
 }
 
 .right {
@@ -41,7 +35,6 @@ body {
     right: 34px;
     top: 20px;
     display: inline-block;
-    /* border: 2px solid yellow; */
 }
 
 .navbar {
